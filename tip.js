@@ -1,9 +1,11 @@
-// variables
-// a = pre tip total
-// b = % of tip
-let a = 30;
-let b = 2;
+// const billInput = document.getElementById()
 
-let mul = a * b;
+function calculatetotal() {
+    const billValue = billInput.Value;
+    const tipValue = tipInput.Value;
 
-console.log("the sume of a and b is: " + mul);
+    
+    const totalValue = billValue * (1 + tipValue/100);
+    console.log(totalValue);
+
+}
